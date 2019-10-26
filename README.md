@@ -29,3 +29,6 @@ Con este comando agregamos y realizamos el commit. Válido para archivos que ya 
 
 ## git rm
 Comando que elimina archivos de nuestro repositorio y de nuestro directorio de trabajo.
+
+## git checkout "nombre de archivo"
+Comando para regresar archivos eliminados.
