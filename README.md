@@ -11,3 +11,6 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 git config --global core.editor nano
 git config --list
+
+## git diff
+Compara directorio de trabajo con el área de preparación.
