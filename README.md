@@ -20,3 +20,6 @@ Archivos que git ignorará.
 
 ## git commit --amend
 Comando con el cual podemos modificar el comentario de git más reciente, utilizando el editor preconfigurado.
+
+## git commit -a -m
+Con este comando agregamos y realizamos el commit. Válido para archivos que ya estamos rastreando.
