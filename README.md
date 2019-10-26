@@ -14,3 +14,9 @@ git config --list
 
 ## git diff
 Compara directorio de trabajo con el área de preparación.
+
+## .gitignore
+Archivos que git ignorará.
+
+## git commit --amend
+Comando con el cual podemos modificar el comentario de git más reciente.
