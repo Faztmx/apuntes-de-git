@@ -12,6 +12,9 @@ git config --global user.email johndoe@example.com
 git config --global core.editor nano
 git config --list
 
+## git log
+Este comando muestra el historial de commits, para salir solamente presionamos la tecla q.
+
 ## git diff
 Compara directorio de trabajo con el área de preparación.
 
@@ -23,3 +26,6 @@ Comando con el cual podemos modificar el comentario de git más reciente, utiliz
 
 ## git commit -a -m
 Con este comando agregamos y realizamos el commit. Válido para archivos que ya estamos rastreando.
+
+## git rm
+Comando que elimina archivos de nuestro repositorio y de nuestro directorio de trabajo.
