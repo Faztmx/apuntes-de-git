@@ -7,13 +7,19 @@ Sistema de control de versiones para el mantenimiento eficiente y confiable de a
 3. Directorio Git
 
 ## Configurando git por primera vez 
+```
 git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 git config --global core.editor nano
 git config --list
+```
 
 ## git log
 Este comando muestra el historial de commits, para salir solamente presionamos la tecla q.
+```
+git log --pretty=format:"%h - %an, %ar : %s"
+cdb9608 - Efra Rz, 17 minutes ago : Explicar comando mv
+```
 
 ## git diff
 Compara directorio de trabajo con el área de preparación.
