@@ -19,6 +19,9 @@ Este comando muestra el historial de commits, para salir solamente presionamos l
 ```
 --pretty=format:"%h - %an, %ar : %s"
 --graph  Con esta opción muestra el historial en gráfica
+--oneline  Muestra en una linea
+--all Muestra todas las ramas
+--decorate 
 cdb9608 - Efra Rz, 17 minutes ago : Explicar comando mv
 ```
 Mostrar historial a partir de una fecha determinada
@@ -60,3 +63,7 @@ git mv oldname.ext newname.ext
 Esto equivale a:
 1. `git rm` eliminar el viejo archivo con nombre.
 2. `git add` agregar nuevo archivo con nombre.
+
+## git clone
+Comando para clonar un repositorio por medio de HTTPS o SSH.
+`git clone url`
