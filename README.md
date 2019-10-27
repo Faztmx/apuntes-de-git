@@ -17,8 +17,15 @@ git config --list
 ## git log
 Este comando muestra el historial de commits, para salir solamente presionamos la tecla q.
 ```
-git log --pretty=format:"%h - %an, %ar : %s"
+--pretty=format:"%h - %an, %ar : %s"
+--graph  Con esta opción muestra el historial en gráfica
 cdb9608 - Efra Rz, 17 minutes ago : Explicar comando mv
+```
+Mostrar historial a partir de una fecha determinada
+```
+git log --after="2019-10-26 19:00" --- Muestra lo que hay después de esta fecha y hora
+git log --before="2019-10-26 19:00" --- Muestra lo que hay antes de esta fecha y hora
+
 ```
 
 ## git diff
@@ -29,6 +36,7 @@ Archivos que git ignorará.
 
 ## git commit --amend
 Comando con el cual podemos modificar el comentario de git más reciente, utilizando el editor preconfigurado.
+También sirve por si agregamos más información al último cambio y no queremos hacer un nuevo commit.
 
 ## git commit -a -m
 Con este comando agregamos y realizamos el commit. Válido para archivos que ya estamos rastreando.
