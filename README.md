@@ -40,3 +40,9 @@ Comando para regresar archivos eliminados.
 
 ## git mv
 comando para eliminar un archivo de la ubicación vieja y crearlo en una ubicación nueva
+```
+git mv oldname.ext newname.ext
+```
+Esto equivale a:
+1. `git rm` eliminar el viejo archivo con nombre.
+2. `git add` agregar nuevo archivo con nombre.
