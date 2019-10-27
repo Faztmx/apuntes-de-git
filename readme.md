@@ -32,3 +32,11 @@ Comando que elimina archivos de nuestro repositorio y de nuestro directorio de t
 
 ## git checkout "nombre de archivo"
 Comando para regresar archivos eliminados.
+
+## Pasos para creación de alias
+1. 'editor ~/.bashrc'
+2. alias nombrealias = 'comando'
+3. Reinicia sesión o 'source ~./bashrc'
+
+## git mv
+comando para eliminar un archivo de la ubicación vieja y crearlo en una ubicación nueva
