@@ -33,6 +33,8 @@ git log --before="2019-10-26 19:00" --- Muestra lo que hay antes de esta fecha y
 
 ## git diff
 Compara directorio de trabajo con el área de preparación.
+`git dif apuntador apuntador`
+Muestra diferencia entre los cambios de un commit y otro.
 
 ## .gitignore
 Archivos que git ignorará.
@@ -41,7 +43,7 @@ Archivos que git ignorará.
 Comando con el cual podemos modificar el comentario de git más reciente, utilizando el editor preconfigurado.
 También sirve por si agregamos más información al último cambio y no queremos hacer un nuevo commit.
 
-## git commit -a -m
+## git commit -a -m (Salta el área de preparación)
 Con este comando agregamos y realizamos el commit. Válido para archivos que ya estamos rastreando.
 
 ## git rm
@@ -67,3 +69,9 @@ Esto equivale a:
 ## git clone
 Comando para clonar un repositorio por medio de HTTPS o SSH.
 `git clone url`
+
+## git checkout
+`git checkout apuntador`
+Puedes viajar en la historia del proyecto.
+`git checkout master`
+Regresas al punto más reciente.
