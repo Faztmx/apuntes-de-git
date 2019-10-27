@@ -43,8 +43,8 @@ Archivos que git ignorará.
 Comando con el cual podemos modificar el comentario de git más reciente, utilizando el editor preconfigurado.
 También sirve por si agregamos más información al último cambio y no queremos hacer un nuevo commit.
 
-## git commit -a -m (Salta el área de preparación)
-Con este comando agregamos y realizamos el commit. Válido para archivos que ya estamos rastreando.
+## git commit -a -m "comentario" (Salta el área de preparación)
+Con este comando agregamos y realizamos el commit. Válido para archivos que ya estamos rastreando. Es lo mismo escribir `git commit -am "comentario"`.
 
 ## git rm
 Comando que elimina archivos de nuestro repositorio y de nuestro directorio de trabajo.
@@ -75,3 +75,15 @@ Comando para clonar un repositorio por medio de HTTPS o SSH.
 Puedes viajar en la historia del proyecto.
 `git checkout master`
 Regresas al punto más reciente.
+
+## git tag
+Sobre etiquetas, son puntos en la historia que queremos resaltar creando un alias para no tener que escribir completa la suma de comprobación.
+1. `git tag nombre-etiqueta` Comando para crear una nueva etiqueta ligera el checksun actual.
+2. `git tag` comando para ver las etiquetas creadas.
+3. `git tag -a nombre-etiqueta -m` Comando para crear etiquetas anotadas, que basicamente son etiquetas con commits.
+4. `git show` comando para mostrar etiqueta o checsum(commit) específico.
+5. `git tag -l "v1.*"`Filtrar etiquetas por un patron específico.
+6. `git tag nombre-etiqueta checksum` Comando para crear una nueva etiqueta ligera el checksun que elijamos.
+## git show
+Comando para mostrar etiqueta o checsum(commit) específico.
+
