@@ -87,3 +87,4 @@ Sobre etiquetas, son puntos en la historia que queremos resaltar creando un alia
 ## git show
 Comando para mostrar etiqueta o checsum(commit) específico.
 
+Esta línea fue creada en la rama master.
