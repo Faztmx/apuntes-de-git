@@ -30,6 +30,7 @@ git log --after="2019-10-26 19:00" --- Muestra lo que hay después de esta fecha
 git log --before="2019-10-26 19:00" --- Muestra lo que hay antes de esta fecha y hora
 
 ```
+`git log --pretty --oneline --decorate --all --graph` Este comando nos muestra el historial una sola línea por commit.
 
 ## git diff
 Compara directorio de trabajo con el área de preparación.
