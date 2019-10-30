@@ -4,3 +4,5 @@
 
 ## Podemos encontrar muchos errores en el camino.
 `git config --list --local` comando que muestra las configuraciones de este directorio en particular.
+
+`git checkout -b nombre-rama` comando para crear una nueva rama y saltar automáticamente.
